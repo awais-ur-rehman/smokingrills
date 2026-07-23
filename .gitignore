@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local context notes for AI assistants
+CONTEXT.md
+smokin-grill-cafe-content.md
