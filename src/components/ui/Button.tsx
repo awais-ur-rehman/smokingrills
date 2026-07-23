@@ -5,7 +5,7 @@ type Variant = "solid" | "outline";
 
 const buttonClasses = (variant: Variant, className?: string) =>
   cn(
-    "inline-block rounded-full px-6 py-3 font-sans font-bold text-sm tracking-wide uppercase transition-transform hover:scale-105",
+    "inline-block rounded-full px-6 py-3 font-sans font-bold text-sm lg:text-xl tracking-wide uppercase transition-transform hover:scale-105",
     variant === "solid" && "bg-crimson text-cream",
     variant === "outline" && "border-2 border-ink/70 text-ink bg-transparent",
     className,
@@ -21,10 +21,19 @@ type LinkButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string;
 };
 
-export function Button({ variant = "solid", className, href, ...props }: ButtonProps | LinkButtonProps) {
+export function Button({
+  variant = "solid",
+  className,
+  href,
+  ...props
+}: ButtonProps | LinkButtonProps) {
   if (href) {
     return (
-      <a href={href} className={buttonClasses(variant, className)} {...(props as AnchorHTMLAttributes<HTMLAnchorElement>)} />
+      <a
+        href={href}
+        className={buttonClasses(variant, className)}
+        {...(props as AnchorHTMLAttributes<HTMLAnchorElement>)}
+      />
     );
   }
 
