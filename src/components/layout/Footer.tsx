@@ -3,7 +3,7 @@ import { BounceIcon } from "@/components/ui/BounceIcon";
 export function Footer() {
   return (
     <footer className="relative flex h-[50vh] lg:h-screen flex-col overflow-hidden bg-cream px-[2.5vw] py-[8vw] font-sans text-black">
-      <div className="flex flex-col items-start gap-4 pb-6 text-sm font-bold uppercase sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col items-start gap-4 pb-6 text-sm lg:text-2xl font-bold uppercase sm:flex-row sm:items-center sm:justify-between">
         <nav className="flex flex-col gap-3 sm:flex-row sm:gap-6">
           <a href="#">Home</a>
           <a href="#">Menu</a>
@@ -15,7 +15,7 @@ export function Footer() {
 
       <div className="border-t border-black/20" />
 
-      <p className="pt-6 text-sm font-bold uppercase text-black/70">
+      <p className="pt-6 text-sm lg:text-2xl font-bold uppercase text-black/70">
         International Flavours, Locally Served.
       </p>
 

@@ -30,14 +30,14 @@ export function Experience() {
       </div>
 
       <div className="relative mx-auto mt-8 w-full max-w-3xl flex-1 px-6">
-        <p className="absolute left-4 top-1/3 hidden font-sans text-sm font-bold uppercase leading-relaxed text-cream sm:block lg:left-10">
+        <p className="absolute left-4 top-1/3 hidden font-sans text-sm lg:text-xl font-bold uppercase leading-relaxed text-cream sm:block lg:left-10">
           Premium cuts
           <br />
           Signature spice blend
           <br />
           Grilled to order
         </p>
-        <p className="absolute right-4 top-1/3 hidden text-right font-sans text-sm font-bold uppercase leading-relaxed text-cream sm:block lg:right-10">
+        <p className="absolute right-4 top-1/3 hidden text-right font-sans text-sm lg:text-xl font-bold uppercase leading-relaxed text-cream sm:block lg:right-10">
           Rich garlic butter
           <br />
           Choice of sauce

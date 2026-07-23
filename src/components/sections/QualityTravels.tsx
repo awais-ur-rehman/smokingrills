@@ -17,11 +17,51 @@ const path =
 const ICON_ROTATION_OFFSET = 45;
 
 const categories = [
-  { label: "Burgers", top: 16, left: 76, width: "w-48 sm:w-64", revealAt: 0.16, rotate: "rotate-2", src: "/images/menu-burgers.jpg" },
-  { label: "Steaks", top: 42, left: 32, width: "w-40 sm:w-56", revealAt: 0.42, rotate: "-rotate-3", src: "/images/menu-steaks.jpg" },
-  { label: "Wings", top: 52, left: 62, width: "w-40 sm:w-56", revealAt: 0.52, rotate: "rotate-2", src: "/images/menu-wings.jpg" },
-  { label: "Pizza", top: 67, left: 12, width: "w-40 sm:w-56", revealAt: 0.67, rotate: "rotate-2", src: "/images/menu-pizza.jpg" },
-  { label: "Shakes", top: 82, left: 68, width: "w-40 sm:w-56", revealAt: 0.82, rotate: "-rotate-2", src: "/images/menu-shakes.jpg" },
+  {
+    label: "Burgers",
+    top: 16,
+    left: 76,
+    width: "w-48 sm:w-64",
+    revealAt: 0.16,
+    rotate: "rotate-2",
+    src: "/images/menu-burgers.jpg",
+  },
+  {
+    label: "Steaks",
+    top: 42,
+    left: 32,
+    width: "w-40 sm:w-56",
+    revealAt: 0.42,
+    rotate: "-rotate-3",
+    src: "/images/menu-steaks.jpg",
+  },
+  {
+    label: "Wings",
+    top: 52,
+    left: 62,
+    width: "w-40 sm:w-56",
+    revealAt: 0.52,
+    rotate: "rotate-2",
+    src: "/images/menu-wings.jpg",
+  },
+  {
+    label: "Pizza",
+    top: 67,
+    left: 12,
+    width: "w-40 sm:w-56",
+    revealAt: 0.67,
+    rotate: "rotate-2",
+    src: "/images/menu-pizza.jpg",
+  },
+  {
+    label: "Shakes",
+    top: 82,
+    left: 68,
+    width: "w-40 sm:w-56",
+    revealAt: 0.82,
+    rotate: "-rotate-2",
+    src: "/images/menu-shakes.jpg",
+  },
 ];
 
 function MenuCard({
@@ -32,8 +72,16 @@ function MenuCard({
   category: (typeof categories)[number];
 }) {
   const [revealed, setRevealed] = useState(false);
-  const opacity = useTransform(scrollYProgress, [category.revealAt - 0.06, category.revealAt], [0, 1]);
-  const scale = useTransform(scrollYProgress, [category.revealAt - 0.06, category.revealAt], [0.75, 1]);
+  const opacity = useTransform(
+    scrollYProgress,
+    [category.revealAt - 0.06, category.revealAt],
+    [0, 1],
+  );
+  const scale = useTransform(
+    scrollYProgress,
+    [category.revealAt - 0.06, category.revealAt],
+    [0.75, 1],
+  );
 
   useMotionValueEvent(scrollYProgress, "change", (progress) => {
     if (progress >= category.revealAt) setRevealed(true);
@@ -49,7 +97,7 @@ function MenuCard({
       }}
       className={`absolute ${category.width} ${category.rotate}`}
     >
-      <span className="text-stroke-white absolute -top-6 left-0 z-10 -rotate-3 font-sans text-xs text-crimson sm:text-sm">
+      <span className="text-stroke-white absolute -top-6 left-0 z-10 -rotate-3 font-sans text-xs lg:text-7xl text-crimson sm:text-sm">
         {category.label}
       </span>
       <div className="aspect-4/5 overflow-hidden rounded-2xl shadow-xl">
@@ -82,7 +130,8 @@ export function QualityTravels() {
     const clamped = Math.min(Math.max(progress, 0), 1);
     const point = el.getPointAtLength(clamped * length);
     const ahead = el.getPointAtLength(Math.min(clamped * length + 1, length));
-    const angle = Math.atan2(ahead.y - point.y, ahead.x - point.x) * (180 / Math.PI);
+    const angle =
+      Math.atan2(ahead.y - point.y, ahead.x - point.x) * (180 / Math.PI);
     setIcon({ x: point.x, y: point.y, angle });
   });
 
@@ -112,8 +161,8 @@ export function QualityTravels() {
 
         <p className="mt-6 max-w-lg font-sans text-[clamp(0.95rem,1.4vw,1.15rem)] font-bold text-ink">
           Explore our diverse menu featuring international flavours — from
-          burgers and steaks to wings, pizza, and shakes — for an
-          unforgettable dining experience.
+          burgers and steaks to wings, pizza, and shakes — for an unforgettable
+          dining experience.
         </p>
       </div>
 
@@ -154,7 +203,11 @@ export function QualityTravels() {
         </motion.div>
 
         {categories.map((category) => (
-          <MenuCard key={category.label} scrollYProgress={scrollYProgress} category={category} />
+          <MenuCard
+            key={category.label}
+            scrollYProgress={scrollYProgress}
+            category={category}
+          />
         ))}
       </div>
 

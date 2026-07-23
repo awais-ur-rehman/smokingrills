@@ -43,7 +43,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative mx-auto flex w-full max-w-[1700px] font-bold flex-col gap-2 pt-2 font-sans text-sm text-ink sm:flex-row sm:items-end sm:justify-between sm:text-base">
+      <div className="relative mx-auto flex w-full max-w-[1700px] font-bold flex-col gap-2 pt-2 font-sans lg:text-2xl text-xl text-ink sm:flex-row sm:items-end sm:justify-between">
         <p className="max-w-[220px] sm:max-w-sm sm:text-left">
           Our eclectic menu reflects the wide variety of influences and
           experiences that inform our approach to cooking.
