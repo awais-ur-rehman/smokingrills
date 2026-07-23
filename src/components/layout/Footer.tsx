@@ -23,7 +23,9 @@ export function Footer() {
         <BounceIcon
           src="/images/ingredient-cheese.png"
           alt="Cheese slice"
-          rise="60vh"
+          rise={60}
+          drift={-7}
+          spin={-30}
           duration={3.2}
           delay={0}
           className="absolute left-[60%] top-[36%] z-10 w-14 sm:w-20"
@@ -31,7 +33,9 @@ export function Footer() {
         <BounceIcon
           src="/images/ingredient-lettuce.png"
           alt="Lettuce"
-          rise="65vh"
+          rise={65}
+          drift={6}
+          spin={25}
           duration={3.8}
           delay={0.4}
           className="absolute left-[4%] top-[35%] z-10 w-16 sm:w-24"
@@ -39,7 +43,9 @@ export function Footer() {
         <BounceIcon
           src="/images/ingredient-patty.png"
           alt="Beef patty"
-          rise="70vh"
+          rise={70}
+          drift={-5}
+          spin={-20}
           duration={2.8}
           delay={0.8}
           className="absolute right-[4%] top-[33%] z-10 w-14 sm:w-20"
@@ -47,7 +53,9 @@ export function Footer() {
         <BounceIcon
           src="/images/ingredient-tomato.png"
           alt="Tomato slice"
-          rise="55vh"
+          rise={55}
+          drift={8}
+          spin={35}
           duration={3.4}
           delay={1.2}
           className="absolute left-[32%] top-[38%] z-10 w-16 sm:w-24"
