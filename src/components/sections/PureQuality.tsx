@@ -5,14 +5,14 @@ export function PureQuality() {
     <section className="relative flex h-screen min-h-140 flex-col items-center justify-center overflow-hidden bg-cream px-6">
       <div className="relative mx-auto max-w-4xl text-center">
         <span className="text-stroke-white inline-block -rotate-3 font-sans text-[clamp(1.1rem,2.8vw,2.2rem)] text-crimson">
-          Pure Quality
+          Fresh &amp; Local
         </span>
 
         <h2 className="text-stroke-white relative z-10 mt-2 font-sans uppercase leading-[0.9] tracking-tight text-crimson text-[clamp(3rem,15vw,10rem)]">
-          <span className="block">Every Layer</span>
-          <span className="block">Packed With</span>
-          <span className="block">Signature</span>
-          <span className="block">Flavor</span>
+          <span className="block">Fresh</span>
+          <span className="block">Local</span>
+          <span className="block">Crafted</span>
+          <span className="block">With Care</span>
         </h2>
 
         <Image

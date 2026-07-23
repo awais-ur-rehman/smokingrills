@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Menu } from "lucide-react";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function Header() {
@@ -24,14 +25,19 @@ export function Header() {
         hidden ? "-translate-y-full" : "translate-y-0"
       }`}
     >
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-6 sm:px-10">
-        <span className="text-stroke-white font-display text-2xl text-crimson sm:text-3xl">
-          CRAV
-        </span>
+      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-2 lg:px-4">
+        <Image
+          src="/images/logo.png"
+          alt="Smokin' Grill Cafe"
+          width={200}
+          height={80}
+          priority
+          className="lg:h-32 w-auto h-28"
+        />
 
         <div className="flex items-center gap-3">
           <Button variant="solid" className="hidden sm:inline-block">
-            Burgers
+            Explore Menu
           </Button>
           <button className="flex items-center gap-2 rounded-full border-2 border-ink/70 px-5 py-3 font-sans font-bold text-sm uppercase text-ink">
             Menu

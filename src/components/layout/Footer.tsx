@@ -2,21 +2,21 @@ import { BounceIcon } from "@/components/ui/BounceIcon";
 
 export function Footer() {
   return (
-    <footer className="relative flex h-screen flex-col overflow-hidden bg-cream px-[2.5vw] py-[8vw] font-sans text-black">
-      <div className="flex flex-wrap items-center justify-between gap-4 pb-6 text-sm font-bold uppercase">
-        <nav className="flex gap-6">
+    <footer className="relative flex h-[50vh] lg:h-screen flex-col overflow-hidden bg-cream px-[2.5vw] py-[8vw] font-sans text-black">
+      <div className="flex flex-col items-start gap-4 pb-6 text-sm font-bold uppercase sm:flex-row sm:items-center sm:justify-between">
+        <nav className="flex flex-col gap-3 sm:flex-row sm:gap-6">
           <a href="#">Home</a>
-          <a href="#">Burgers</a>
-          <a href="#">Spices</a>
+          <a href="#">Menu</a>
+          <a href="#">Locations</a>
           <a href="#">Contact</a>
         </nav>
-        <span>© 2026 CRAV — All Rights Reserved</span>
+        <span>© 2026 Smokin&apos; Grill Cafe — All Rights Reserved</span>
       </div>
 
       <div className="border-t border-black/20" />
 
       <p className="pt-6 text-sm font-bold uppercase text-black/70">
-        Smashed Patties · Toasted Buns · Est. 1997
+        International Flavours, Locally Served.
       </p>
 
       <div className="relative mt-auto">
@@ -61,8 +61,8 @@ export function Footer() {
           className="absolute left-[32%] top-[38%] z-10 w-16 sm:w-24"
         />
 
-        <h2 className="text-stroke-white select-none text-center font-display leading-none text-crimson text-[42vw] sm:text-[32vw]">
-          CRAV
+        <h2 className="text-stroke-white select-none text-center font-display leading-none text-crimson lg:text-[22vw] text-[18vw]">
+          SMOKIN&apos;
         </h2>
       </div>
     </footer>

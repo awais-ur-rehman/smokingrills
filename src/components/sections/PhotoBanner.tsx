@@ -4,8 +4,8 @@ export function PhotoBanner() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <Image
-        src="/images/banner-burger-hands.jpg"
-        alt="Hands holding a loaded bacon cheeseburger"
+        src="/images/banner-dish.jpg"
+        alt="Guest enjoying a Smokin' Grill Cafe dish"
         fill
         className="object-cover"
       />

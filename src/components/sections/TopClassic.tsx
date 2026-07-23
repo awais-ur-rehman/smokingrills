@@ -7,18 +7,18 @@ export function TopClassic() {
     <section className="relative overflow-hidden bg-cream pb-48 pt-20 sm:pt-28">
       <div className="mx-auto max-w-4xl px-6 text-center">
         <span className="text-stroke-white inline-block -rotate-3 font-sans text-[clamp(1.1rem,2.8vw,2.2rem)] text-crimson">
-          Top Classic
+          What&apos;s Popular
         </span>
 
         <h2 className="text-stroke-white mt-4 font-sans uppercase leading-[0.95] tracking-tight text-crimson text-[clamp(2.75rem,15vw,8.5rem)]">
-          <span className="block">Juicy Cheesy</span>
-          <span className="block">Fully Loaded</span>
+          <span className="block">The Ultimate</span>
+          <span className="block">Duo Burger</span>
         </h2>
 
         <p className="mx-auto mt-[2vw] max-w-2xl font-sans text-[clamp(1rem,1.8vw,1.6rem)] font-bold text-ink">
-          CRAV is back and bolder than ever. Honoring our rich roots, we bring
-          you the ultimate smashed experience fully loaded, hot, and crafted
-          fresh.
+          Meet the 10250 — a mouthwatering duo burger combining the best of both
+          worlds. A juicy beef patty layered with a tender, savory chicken
+          patty, for a delightful contrast in flavors and textures.
         </p>
 
         <Button variant="solid" className="mt-8 px-10 py-4 text-base">
@@ -29,13 +29,13 @@ export function TopClassic() {
       <div className="relative mx-auto mt-20 max-w-6xl px-6">
         <Sticker
           src="/images/sticker-selfie.png"
-          alt="CRAV mascot taking a selfie"
+          alt="Mascot sticker taking a selfie"
           rotate={-10}
           className="absolute -top-16 left-2 z-20 w-32 sm:-top-20 sm:left-4 sm:w-48"
         />
 
         <div className="flex items-start justify-center">
-          <div className="aspect-4/7 w-2/5 max-w-96 -rotate-3 overflow-hidden rounded-2xl shadow-xl">
+          <div className="aspect-6/5 w-2/4 max-w-96 -rotate-3 overflow-hidden rounded-2xl shadow-xl">
             <Image
               src="/images/classic-gallery-1.jpg"
               alt="Guest photographing a loaded burger and fries"
@@ -44,7 +44,7 @@ export function TopClassic() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="aspect-4/7 w-2/5 max-w-96 overflow-hidden rounded-2xl shadow-xl">
+          <div className="aspect-6/5 w-2/5 max-w-96 overflow-hidden rounded-2xl shadow-xl">
             <Image
               src="/images/classic-gallery-2.jpg"
               alt="Double cheeseburger with fries basket"
@@ -53,7 +53,7 @@ export function TopClassic() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="aspect-4/7 ml-6 w-2/5 max-w-96 overflow-hidden rounded-2xl shadow-xl sm:ml-10">
+          <div className="aspect-6/5 ml-6 w-2/5 max-w-96 overflow-hidden rounded-2xl shadow-xl sm:ml-10">
             <Image
               src="/images/classic-gallery-3.jpg"
               alt="Hand holding a wrapped burger"

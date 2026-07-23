@@ -18,8 +18,9 @@ const mouseMemoirs = Mouse_Memoirs({
 });
 
 export const metadata: Metadata = {
-  title: "Smoking Grill Cafe",
-  description: "A cozy cafe serving great food and coffee.",
+  title: "Smokin' Grill Cafe",
+  description:
+    "Explore our diverse restaurant menu featuring soups, starters, wings, steaks, burgers, and more. Perfect for every palate and occasion, our menu promises a memorable dining experience.",
 };
 
 export default function RootLayout({
