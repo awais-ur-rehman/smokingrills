@@ -31,7 +31,7 @@ export function TopClassic() {
           src="/images/sticker-selfie.png"
           alt="Mascot sticker taking a selfie"
           rotate={-10}
-          className="absolute -top-16 left-2 z-20 w-32 sm:-top-20 sm:left-4 sm:w-48"
+          className="absolute -top-16 left-2 z-20 w-16 sm:-top-20 sm:left-4 lg:w-28"
         />
 
         <div className="flex items-start justify-center">

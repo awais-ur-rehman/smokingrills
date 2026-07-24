@@ -17,8 +17,8 @@ export function FeelTheChange() {
         </h2>
 
         <p className="mt-6 max-w-md font-sans text-[clamp(0.95rem,1.4vw,1.15rem)] font-bold text-ink">
-          From soups to steaks, pizzas to shakes — every dish is crafted to
-          turn a meal into a memory. We don&apos;t just serve dishes, we serve
+          From soups to steaks, pizzas to shakes — every dish is crafted to turn
+          a meal into a memory. We don&apos;t just serve dishes, we serve
           experiences.
         </p>
 
@@ -44,7 +44,8 @@ export function FeelTheChange() {
         <Image
           src="/images/dine-in.jpg"
           alt="Guest enjoying a meal at Smokin' Grill Cafe"
-          fill
+          width={1000}
+          height={1000}
           className="object-cover"
         />
       </div>
