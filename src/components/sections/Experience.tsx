@@ -10,13 +10,13 @@ export function Experience() {
           src="/images/sticker-fries.png"
           alt="Fries mascot sticker"
           rotate={-8}
-          className="absolute left-[2%] top-1/2 z-10 w-24 -translate-y-1/2 sm:left-[8%] sm:w-36"
+          className="absolute left-[2%] top-1/2 z-10 w-24 -translate-y-1/2 md:left-[8%] md:w-36"
         />
         <Sticker
           src="/images/sticker-burger-thumbsup.png"
           alt="Mascot sticker giving a thumbs up"
           rotate={8}
-          className="absolute right-[2%] top-1/2 z-10 w-24 -translate-y-1/2 sm:right-[8%] sm:w-36"
+          className="absolute right-[2%] top-1/2 z-10 w-24 -translate-y-1/2 md:right-[8%] md:w-36"
         />
 
         <span className="inline-block -rotate-2 rounded-full bg-cream px-5 py-1.5 font-sans text-[clamp(1rem,2vw,1.5rem)] text-crimson">
@@ -30,14 +30,14 @@ export function Experience() {
       </div>
 
       <div className="relative mx-auto mt-8 w-full max-w-3xl flex-1 px-6">
-        <p className="absolute left-4 top-1/3 hidden font-sans text-sm lg:text-xl font-bold uppercase leading-relaxed text-cream sm:block lg:left-10">
+        <p className="absolute left-4 top-1/3 hidden font-sans text-sm lg:text-xl font-bold uppercase leading-relaxed text-cream md:block lg:left-10">
           Premium cuts
           <br />
           Signature spice blend
           <br />
           Grilled to order
         </p>
-        <p className="absolute right-4 top-1/3 hidden text-right font-sans text-sm lg:text-xl font-bold uppercase leading-relaxed text-cream sm:block lg:right-10">
+        <p className="absolute right-4 top-1/3 hidden text-right font-sans text-sm lg:text-xl font-bold uppercase leading-relaxed text-cream md:block lg:right-10">
           Rich garlic butter
           <br />
           Choice of sauce

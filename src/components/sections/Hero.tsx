@@ -5,14 +5,14 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="relative flex h-screen min-h-140 flex-col overflow-hidden bg-cream px-6 pb-3 pt-24 sm:px-10 sm:pt-28">
+    <section className="relative flex h-screen min-h-140 flex-col overflow-hidden bg-cream px-6 pb-3 pt-24 md:px-10 md:pt-28">
       <div className="relative mx-auto w-full max-w-[1700px] flex-1">
-        <span className="text-stroke-white absolute left-[4%] top-[8%] -rotate-6 font-display text-lg text-mustard sm:left-[16%] sm:top-[6%] sm:text-2xl md:text-3xl">
+        <span className="text-stroke-white absolute left-[4%] top-[8%] -rotate-6 font-display text-lg text-mustard md:left-[16%] md:top-[6%] md:text-2xl lg:text-3xl">
           International
           <br />
           Flavours
         </span>
-        <span className="text-stroke-white absolute right-[4%] top-[34%] rotate-3 font-display text-lg text-mustard sm:right-[10%] sm:top-[30%] sm:text-2xl md:text-3xl">
+        <span className="text-stroke-white absolute right-[4%] top-[34%] rotate-3 font-display text-lg text-mustard md:right-[10%] md:top-[30%] md:text-2xl lg:text-3xl">
           Locally
           <br />
           Served
@@ -43,12 +43,12 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="relative mx-auto flex w-full max-w-[1700px] font-bold flex-col gap-2 pt-2 font-sans lg:text-2xl text-xl text-ink sm:flex-row sm:items-end sm:justify-between">
-        <p className="max-w-[220px] sm:max-w-sm sm:text-left">
+      <div className="relative mx-auto flex w-full max-w-[1700px] font-bold flex-col gap-2 pt-2 font-sans lg:text-2xl text-xl text-ink md:flex-row md:items-end md:justify-between">
+        <p className="max-w-[220px] md:max-w-sm md:text-left">
           Our eclectic menu reflects the wide variety of influences and
           experiences that inform our approach to cooking.
         </p>
-        <p className="sm:max-w-sm sm:text-right">
+        <p className="md:max-w-sm md:text-right">
           We don&apos;t just serve dishes, we serve memories — crafted fresh,
           every single day.
         </p>

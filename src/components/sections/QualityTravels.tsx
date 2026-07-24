@@ -21,7 +21,7 @@ const categories = [
     label: "Burgers",
     top: 16,
     left: 76,
-    width: "w-48 sm:w-64",
+    width: "w-48 md:w-64",
     revealAt: 0.16,
     rotate: "rotate-2",
     src: "/images/menu-burgers.jpg",
@@ -30,7 +30,7 @@ const categories = [
     label: "Steaks",
     top: 42,
     left: 32,
-    width: "w-40 sm:w-56",
+    width: "w-40 md:w-56",
     revealAt: 0.42,
     rotate: "-rotate-3",
     src: "/images/menu-steaks.jpg",
@@ -39,7 +39,7 @@ const categories = [
     label: "Wings",
     top: 52,
     left: 62,
-    width: "w-40 sm:w-56",
+    width: "w-40 md:w-56",
     revealAt: 0.52,
     rotate: "rotate-2",
     src: "/images/menu-wings.jpg",
@@ -48,7 +48,7 @@ const categories = [
     label: "Pizza",
     top: 67,
     left: 12,
-    width: "w-40 sm:w-56",
+    width: "w-40 md:w-56",
     revealAt: 0.67,
     rotate: "rotate-2",
     src: "/images/menu-pizza.jpg",
@@ -57,7 +57,7 @@ const categories = [
     label: "Shakes",
     top: 82,
     left: 68,
-    width: "w-40 sm:w-56",
+    width: "w-40 md:w-56",
     revealAt: 0.82,
     rotate: "-rotate-2",
     src: "/images/menu-shakes.jpg",
@@ -97,7 +97,7 @@ function MenuCard({
       }}
       className={`absolute ${category.width} ${category.rotate}`}
     >
-      <span className="text-stroke-white absolute -top-6 left-0 z-10 -rotate-3 font-sans text-xs lg:text-7xl text-crimson sm:text-sm">
+      <span className="text-stroke-white absolute -top-6 left-0 z-10 -rotate-3 font-sans text-xs text-crimson md:text-sm lg:text-base">
         {category.label}
       </span>
       <div className="aspect-4/5 overflow-hidden rounded-2xl shadow-xl">
@@ -138,7 +138,7 @@ export function QualityTravels() {
   return (
     <section ref={sectionRef} className="relative overflow-hidden bg-mustard">
       <svg
-        className="absolute inset-x-0 top-0 z-10 h-16 w-full text-cream sm:h-28"
+        className="absolute inset-x-0 top-0 z-10 h-16 w-full text-cream md:h-28"
         viewBox="0 0 1440 200"
         preserveAspectRatio="none"
         aria-hidden
@@ -149,7 +149,7 @@ export function QualityTravels() {
         />
       </svg>
 
-      <div className="relative z-10 px-6 pt-24 sm:px-10 sm:pt-32">
+      <div className="relative z-10 px-6 pt-24 md:px-10 md:pt-32">
         <span className="text-stroke-white inline-block -rotate-3 font-sans text-[clamp(1rem,2vw,1.5rem)] text-crimson">
           Our Menu
         </span>
@@ -198,7 +198,7 @@ export function QualityTravels() {
             alt="Fork and spoon sticker"
             width={90}
             height={90}
-            className="w-24 sm:w-32"
+            className="w-24 md:w-32"
           />
         </motion.div>
 
@@ -212,7 +212,7 @@ export function QualityTravels() {
       </div>
 
       <svg
-        className="relative z-10 h-16 w-full text-cream sm:h-28"
+        className="relative z-10 h-16 w-full text-cream md:h-28"
         viewBox="0 0 1440 200"
         preserveAspectRatio="none"
         aria-hidden

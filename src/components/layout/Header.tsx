@@ -25,18 +25,18 @@ export function Header() {
         hidden ? "-translate-y-full" : "translate-y-0"
       }`}
     >
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-2 lg:px-4">
+      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-4 py-2 lg:px-6">
         <Image
           src="/images/logo.png"
           alt="Smokin' Grill Cafe"
           width={200}
           height={80}
           priority
-          className="lg:h-32 w-auto h-28"
+          className="h-28 w-auto lg:h-32"
         />
 
         <div className="flex items-center gap-3">
-          <Button variant="solid" className="hidden sm:inline-block">
+          <Button variant="solid" className="hidden md:inline-block">
             Explore Menu
           </Button>
           <button className="flex items-center gap-2 rounded-full border-2 border-ink/70 px-5 py-3 font-sans font-bold text-sm uppercase text-ink">

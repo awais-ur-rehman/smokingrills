@@ -20,28 +20,28 @@ export function PureQuality() {
           alt="Crisp lettuce leaf"
           width={260}
           height={260}
-          className="absolute -left-[4%] top-0 z-0 w-24 -rotate-6 sm:w-40"
+          className="absolute -left-[4%] top-0 z-0 w-24 -rotate-6 md:w-40"
         />
         <Image
           src="/images/ingredient-tomato.png"
           alt="Sliced tomato"
           width={260}
           height={260}
-          className="absolute -right-[2%] top-[28%] z-0 w-20 rotate-6 sm:w-36"
+          className="absolute -right-[2%] top-[28%] z-0 w-20 rotate-6 md:w-36"
         />
         <Image
           src="/images/ingredient-cheese.png"
           alt="Melted cheese slice"
           width={260}
           height={260}
-          className="absolute -left-[2%] bottom-[16%] z-0 w-20 -rotate-12 sm:w-36"
+          className="absolute -left-[2%] bottom-[16%] z-0 w-20 -rotate-12 md:w-36"
         />
         <Image
           src="/images/ingredient-patty.png"
           alt="Grilled beef patty"
           width={260}
           height={260}
-          className="absolute -right-[4%] bottom-0 z-0 w-24 rotate-6 sm:w-40"
+          className="absolute -right-[4%] bottom-0 z-0 w-24 rotate-6 md:w-40"
         />
       </div>
     </section>

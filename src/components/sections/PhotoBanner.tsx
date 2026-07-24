@@ -10,7 +10,7 @@ export function PhotoBanner() {
         className="object-cover"
       />
       <svg
-        className="absolute inset-x-0 top-0 h-20 w-full text-crimson sm:h-32"
+        className="absolute inset-x-0 top-0 h-20 w-full text-crimson md:h-32"
         viewBox="0 0 1440 200"
         preserveAspectRatio="none"
         aria-hidden
@@ -21,7 +21,7 @@ export function PhotoBanner() {
         />
       </svg>
       <svg
-        className="absolute inset-x-0 bottom-0 h-16 w-full text-cream sm:h-28"
+        className="absolute inset-x-0 bottom-0 h-16 w-full text-cream md:h-28"
         viewBox="0 0 1440 200"
         preserveAspectRatio="none"
         aria-hidden

@@ -3,8 +3,8 @@ import { BounceIcon } from "@/components/ui/BounceIcon";
 export function Footer() {
   return (
     <footer className="relative flex h-[50vh] lg:h-screen flex-col overflow-hidden bg-cream px-[2.5vw] py-[8vw] font-sans text-black">
-      <div className="flex flex-col items-start gap-4 pb-6 text-sm lg:text-2xl font-bold uppercase sm:flex-row sm:items-center sm:justify-between">
-        <nav className="flex flex-col gap-3 sm:flex-row sm:gap-6">
+      <div className="flex flex-col items-start gap-4 pb-6 text-sm lg:text-2xl font-bold uppercase md:flex-row md:items-center md:justify-between">
+        <nav className="flex flex-col gap-3 md:flex-row md:gap-6">
           <a href="#">Home</a>
           <a href="#">Menu</a>
           <a href="#">Locations</a>
@@ -28,7 +28,7 @@ export function Footer() {
           spin={-30}
           duration={3.2}
           delay={0}
-          className="absolute left-[60%] top-[36%] z-10 w-14 sm:w-20"
+          className="absolute left-[60%] top-[36%] z-10 w-14 md:w-20"
         />
         <BounceIcon
           src="/images/ingredient-lettuce.png"
@@ -38,7 +38,7 @@ export function Footer() {
           spin={25}
           duration={3.8}
           delay={0.4}
-          className="absolute left-[4%] top-[35%] z-10 w-16 sm:w-24"
+          className="absolute left-[4%] top-[35%] z-10 w-16 md:w-24"
         />
         <BounceIcon
           src="/images/ingredient-patty.png"
@@ -48,7 +48,7 @@ export function Footer() {
           spin={-20}
           duration={2.8}
           delay={0.8}
-          className="absolute right-[4%] top-[33%] z-10 w-14 sm:w-20"
+          className="absolute right-[4%] top-[33%] z-10 w-14 md:w-20"
         />
         <BounceIcon
           src="/images/ingredient-tomato.png"
@@ -58,7 +58,7 @@ export function Footer() {
           spin={35}
           duration={3.4}
           delay={1.2}
-          className="absolute left-[32%] top-[38%] z-10 w-16 sm:w-24"
+          className="absolute left-[32%] top-[38%] z-10 w-16 md:w-24"
         />
 
         <h2 className="text-stroke-white select-none text-center font-display leading-none text-crimson lg:text-[22vw] text-[18vw]">

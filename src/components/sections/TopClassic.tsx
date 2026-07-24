@@ -4,7 +4,7 @@ import { Sticker } from "@/components/ui/Sticker";
 
 export function TopClassic() {
   return (
-    <section className="relative overflow-hidden bg-cream pb-48 pt-20 sm:pt-28">
+    <section className="relative overflow-hidden bg-cream pb-48 pt-20 md:pt-28">
       <div className="mx-auto max-w-4xl px-6 text-center">
         <span className="text-stroke-white inline-block -rotate-3 font-sans text-[clamp(1.1rem,2.8vw,2.2rem)] text-crimson">
           What&apos;s Popular
@@ -31,7 +31,7 @@ export function TopClassic() {
           src="/images/sticker-selfie.png"
           alt="Mascot sticker taking a selfie"
           rotate={-10}
-          className="absolute -top-16 left-2 z-20 w-16 sm:-top-20 sm:left-4 lg:w-28"
+          className="absolute -top-16 left-2 z-20 w-16 md:-top-20 md:left-4 lg:w-28"
         />
 
         <div className="flex items-start justify-center">
@@ -53,7 +53,7 @@ export function TopClassic() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="aspect-6/5 ml-6 w-2/5 max-w-96 overflow-hidden rounded-2xl shadow-xl sm:ml-10">
+          <div className="aspect-6/5 ml-6 w-2/5 max-w-96 overflow-hidden rounded-2xl shadow-xl md:ml-10">
             <Image
               src="/images/classic-gallery-3.jpg"
               alt="Hand holding a wrapped burger"
@@ -66,7 +66,7 @@ export function TopClassic() {
       </div>
 
       <svg
-        className="absolute inset-x-0 bottom-0 h-24 w-full text-crimson sm:h-36"
+        className="absolute inset-x-0 bottom-0 h-24 w-full text-crimson md:h-36"
         viewBox="0 0 1440 200"
         preserveAspectRatio="none"
         aria-hidden

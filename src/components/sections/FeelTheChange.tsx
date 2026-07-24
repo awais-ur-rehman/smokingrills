@@ -6,7 +6,7 @@ const WHATSAPP_NUMBER = ""; // TODO: add real number, e.g. "15551234567"
 export function FeelTheChange() {
   return (
     <section className="relative flex min-h-screen flex-col overflow-hidden bg-cream lg:flex-row">
-      <div className="relative z-10 flex flex-1 flex-col justify-center px-6 py-16 sm:px-10 lg:w-1/2 lg:flex-none">
+      <div className="relative z-10 flex flex-1 flex-col justify-center px-6 py-16 md:px-10 lg:w-1/2 lg:flex-none">
         <span className="text-stroke-white inline-block -rotate-3 font-sans text-[clamp(1rem,2vw,1.5rem)] text-crimson">
           Taste It
         </span>
@@ -36,7 +36,7 @@ export function FeelTheChange() {
           alt="Mascot sticker diving into a loaded dish"
           width={400}
           height={400}
-          className="absolute bottom-0 left-[55%] z-20 w-40 sm:w-96 lg:left-[75%]"
+          className="absolute bottom-0 left-[55%] z-20 w-40 md:w-96 lg:left-[75%]"
         />
       </div>
 

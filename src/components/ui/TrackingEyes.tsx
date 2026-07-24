@@ -51,7 +51,7 @@ function Eye({
       </svg>
       <div
         ref={eyeRef}
-        className="flex h-16 w-12 items-center justify-center rounded-full bg-white sm:h-20 sm:w-14"
+        className="flex h-16 w-12 items-center justify-center rounded-full bg-white lg:h-20 lg:w-14"
       >
         <div
           ref={pupilRef}
